@@ -39,13 +39,13 @@
  * | TAB   |   Q   |   W   |   E   |   R   |   T   |-----------------------------------|   Y   |   U   |   I   |   O   |   P   |   \   |
  * | `     |   A   |   S   |   D   |   F   |   G   |-----------------------------------|   H   |   J   |   K   |   L   |   ;   |   '   |
  * | Alt   |   Z   |   X   |   C   |   V   |   B   |   DEL |-------------------|   INS |   N   |   M   |   ,   |   .   |   /   | SHIFT |
- * | Ctrl  |  GUI  | Left  |-------|  Right|  BACK | SPACE |  Num  |---|  SNum | SHIFT |  ALT  |  Up   |-------| Down  |   [   |   ]   |
+ * | Ctrl  |  GUI  | Left  |-------|  Right|  BACK | SPACE |  Num  |---|  SNum | SHIFT |  Enter|  Up   |-------| Down  |   [   |   ]   |
  */
                         bindings = <
 &kp  TAB      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSLH
 &kp  GRAVE    &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  SQT
 &kp  LALT     &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  DEL                                           &kp  INS      &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  RSHFT
-&kp  LCTRL    &kp  LGUI     &kp  LEFT                   &kp  RIGHT    &kp  BSPC     &sk  SPACE    &mo  NUMB_L            &mo  SNUM_L   &kp  RSHFT    &kp  ENTER    &kp  UP                     &kp  DOWN     &kp  LBKT     &kp  RBKT
+&kp  LCTRL    &kp  LGUI     &kp  LEFT                   &kp  RIGHT    &kp  SPACE    &sk  SPACE    &mo  SPACE             &mo  SNUM_L   &kp  RSHFT    &kp  ENTER    &kp  UP                     &kp  DOWN     &kp  LBKT     &kp  RBKT
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
